@@ -3,6 +3,7 @@ package com.example.tinhtong;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class MainActivity2 extends Activity {
@@ -24,5 +25,9 @@ public class MainActivity2 extends Activity {
         }
 
         txtResult.setText("Kết quả là: "+ S);
+    }
+
+    public  void  Back (View v) {
+        System.exit(0);
     }
     }
