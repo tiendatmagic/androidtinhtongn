@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/mauhong"
+    android:background="@color/colorPrimary"
     tools:context=".MainActivity2">
 
     <Button
@@ -14,8 +14,8 @@
         android:layout_column="1"
 
         android:background="@color/bpink"
-        android:text="Back"
         android:onClick="Back"
+        android:text="Back"
         android:textColor="@android:color/background_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
